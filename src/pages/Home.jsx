@@ -52,7 +52,7 @@ const Home = () => {
             transition={{ delay: 0.4 }}
             className="max-w-2xl mx-auto text-lg sm:text-xl text-stone-300 font-normal leading-relaxed"
           >
-            Dunyoning eng saralangan 100% Arabika donalari va mahoratli baristalarimiz ijodi. Endi sevimli qahvangizni uyda yoki ofisda bahramand bo'ling!
+            Dunyoning eng saralangan 100% Arabika donalari va mahoratli baristalarimiz ijodi. Endi sevimli qahvangizni uyda yoki ofisda bahramand bo&apos;ling!
           </motion.p>
 
           <motion.div
@@ -83,7 +83,7 @@ const Home = () => {
           {[
             { icon: Coffee, title: "100% Arabika", desc: "Sifatli va yangi qovurilgan donalar" },
             { icon: Award, title: "Professional Baristalar", desc: "Xalqaro darajadagi mutaxassislar" },
-            { icon: Clock, title: "30 Dakikada Yetkazish", desc: "Issiq holatda uyingizgacha" },
+            { icon: Clock, title: "10 Dakikada Yetkazish", desc: "Issiq holatda uyingizgacha" },
             { icon: Truck, title: "Bepul Yetkazib Berish", desc: "100,000 so'mdan oshsa bepul" },
           ].map((item, idx) => (
             <motion.div
@@ -108,10 +108,10 @@ const Home = () => {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
           <div>
             <span className="text-amber-500 font-bold text-xs uppercase tracking-widest">Ommabop Turlar</span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-white mt-1">Eng Ko'p Buyurtma Qilinganlar</h2>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-white mt-1">Eng Ko&apos;p Buyurtma Qilinganlar</h2>
           </div>
           <Link to="/menu" className="text-amber-500 hover:text-amber-400 font-bold flex items-center gap-1.5 transition">
-            Barcha menyuni ko'rish <ArrowRight className="w-4 h-4" />
+            Barcha menyuni ko&apos;rish <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
 
@@ -160,14 +160,14 @@ const Home = () => {
           <div className="space-y-4 max-w-xl">
             <h2 className="text-3xl font-extrabold text-white">Birinchi buyurtmangizga 15% chegirma!</h2>
             <p className="text-stone-300">
-              Saytimizda ro'yxatdan o'ting va sevimli qahvangizni chegirmali narxda qahvaxonamizdan olib keting yoki yetkazib beraylik.
+              Saytimizda ro&apos;yxatdan o&apos;ting va sevimli qahvangizni chegirmali narxda qahvaxonamizdan olib keting yoki yetkazib beraylik.
             </p>
           </div>
           <Link
             to="/register"
             className="bg-amber-500 hover:bg-amber-400 text-stone-950 font-black px-8 py-4 rounded-full transition shadow-lg shrink-0"
           >
-            Ro'yxatdan O'tish
+            Ro'yxatdan O&apos;tish
           </Link>
         </div>
       </section>
