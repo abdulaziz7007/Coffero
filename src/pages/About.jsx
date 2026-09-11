@@ -58,12 +58,12 @@ const About = () => {
         </motion.div>
 
         <motion.div variants={itemVariants} className="space-y-6">
-          <h2 className="text-3xl font-extrabold text-white">Har bir dona qahvaga bo'lgan e'tibor</h2>
+          <h2 className="text-3xl font-extrabold text-white">Har bir dona qahvaga bo&apos;lgan e&apos;tibor</h2>
           <p className="text-stone-400 leading-relaxed">
             2018-yilda tashkil etilgan Coffero brendi kichik qahvaxonadan boshlanib, bugungi kunda shahar aholisining eng sevimli maskaniga aylandi.
           </p>
           <p className="text-stone-400 leading-relaxed">
-            Bizning asosiy maqsadimiz — mijozlarimizga faqatgina yangi qovurilgan va to'g'ri damlangan premium qahvalarni ulashishdir.
+            Bizning asosiy maqsadimiz — mijozlarimizga faqatgina yangi qovurilgan va to&apos;g&apos;ri damlangan premium qahvalarni ulashishdir.
           </p>
           <div className="grid grid-cols-2 gap-4 pt-2">
             <div className="bg-stone-950/80 p-5 rounded-2xl border border-stone-800 hover:border-amber-500/50 transition">
@@ -71,7 +71,7 @@ const About = () => {
               <span className="text-xs text-stone-400 mt-1 block">Yillik tajriba</span>
             </div>
             <div className="bg-stone-950/80 p-5 rounded-2xl border border-stone-800 hover:border-amber-500/50 transition">
-              <span className="block text-3xl font-black text-amber-500">15k+</span>
+              <span className="block text-3xl font-black text-amber-500">15k +</span>
               <span className="text-xs text-stone-400 mt-1 block">Mamnun mijozlar</span>
             </div>
           </div>

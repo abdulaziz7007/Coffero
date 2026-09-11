@@ -18,13 +18,13 @@ const Cart = () => {
         <div className="w-24 h-24 bg-stone-800 text-amber-500 rounded-full flex items-center justify-center mx-auto border border-stone-700">
           <ShoppingBag className="w-12 h-12" />
         </div>
-        <h2 className="text-3xl font-black text-white">Savatingiz bo'sh</h2>
+        <h2 className="text-3xl font-black text-white">Savatingiz bo&apos;sh</h2>
         <p className="text-stone-400 text-sm">Hali hech qanday mahsulot tanlamadingiz. Bizning mazali menyumizdan buyurtma bering!</p>
         <Link
           to="/menu"
           className="inline-block bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-3.5 rounded-full shadow-lg shadow-amber-600/20 transition"
         >
-          Menyuga o'tish
+          Menyuga o&apos;tish
         </Link>
       </motion.div>
     )

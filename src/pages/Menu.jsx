@@ -50,7 +50,7 @@ const Menu = () => {
     >
       <div className="text-center max-w-2xl mx-auto space-y-4">
         <span className="text-amber-500 font-bold text-xs uppercase tracking-widest">Bizning Menyu</span>
-        <h1 className="text-4xl sm:text-5xl font-black text-white">Xushbo'y va Mazali Turlar</h1>
+        <h1 className="text-4xl sm:text-5xl font-black text-white">Xushbo&apos;y va Mazali Turlar</h1>
         <p className="text-stone-400">Har bir mahsulot unikal retsept va yuqori sifatli ingrediyentlar bilan tayyorlanadi.</p>
       </div>
 
@@ -191,7 +191,7 @@ const Menu = () => {
                   onClick={handleCustomAdd}
                   className="flex-1 py-3 rounded-2xl bg-amber-600 hover:bg-amber-500 text-white font-bold text-sm shadow-lg shadow-amber-600/30 transition"
                 >
-                  Savatga qo'shish
+                  Savatga qo&apos;shish
                 </button>
               </div>
             </motion.div>

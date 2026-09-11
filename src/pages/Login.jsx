@@ -77,9 +77,9 @@ const Login = () => {
         </form>
 
         <div className="text-center text-xs text-stone-400">
-          Akkauntingiz yo'qmi?{' '}
+          Akkauntingiz yo&apos;qmi?{' '}
           <Link to="/register" className="text-amber-500 font-bold hover:underline">
-            Ro'yxatdan o'ting
+            Ro&apos;yxatdan o&apos;ting
           </Link>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Services = () => {
     {
       icon: Truck,
       title: "Tezkor Yetkazib Berish",
-      desc: "Issiq qahva va yangi pishiriqlarni uyingizga yoki ofisingizga 10 daqiqa ichida yetkazib beramiz."
+      desc: "Issiq qahva va yangi pishiriqlarni uyingizga yoki ofisingizga 15 daqiqa ichida yetkazib beramiz."
     },
     {
       icon: Utensils,

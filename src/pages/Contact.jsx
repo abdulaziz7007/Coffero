@@ -11,7 +11,7 @@ const Contact = () => {
       className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12"
     >
       <div className="text-center max-w-2xl mx-auto space-y-4">
-        <h1 className="text-4xl sm:text-5xl font-black text-white">Biz bilan bog'laning</h1>
+        <h1 className="text-4xl sm:text-5xl font-black text-white">Biz bilan bog&apos;laning</h1>
         <p className="text-stone-400">Savollaringiz bormi? Taklif yoki fikrlaringizni mamnuniyat bilan tinglaymiz.</p>
       </div>
 

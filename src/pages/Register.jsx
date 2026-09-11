@@ -105,7 +105,7 @@ const Register = () => {
             type="submit"
             className="w-full bg-amber-600 hover:bg-amber-500 text-white font-bold py-3.5 rounded-2xl shadow-lg shadow-amber-600/20 transition text-sm mt-2"
           >
-            Ro'yxatdan o'tish
+            R&apos;yxatdan o&apos;tish
           </button>
         </form>
 

@@ -42,7 +42,7 @@ const Home = () => {
           >
             Har Bir Finjonda <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-500 to-amber-700">
-              Mukammal Ta'm
+              Mukammal Ta&apos;m
             </span>
           </motion.h1>
 
@@ -83,7 +83,7 @@ const Home = () => {
           {[
             { icon: Coffee, title: "100% Arabika", desc: "Sifatli va yangi qovurilgan donalar" },
             { icon: Award, title: "Professional Baristalar", desc: "Xalqaro darajadagi mutaxassislar" },
-            { icon: Clock, title: "10 Dakikada Yetkazish", desc: "Issiq holatda uyingizgacha" },
+            { icon: Clock, title: "15 Daqiqada Yetkazish", desc: "Issiq holatda uyingizgacha" },
             { icon: Truck, title: "Bepul Yetkazib Berish", desc: "100,000 so'mdan oshsa bepul" },
           ].map((item, idx) => (
             <motion.div

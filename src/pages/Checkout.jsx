@@ -36,7 +36,7 @@ const Checkout = () => {
         </div>
         <h2 className="text-3xl font-black text-white">Buyurtmangiz Qabul Qilindi!</h2>
         <p className="text-stone-300 text-sm leading-relaxed">
-          Raqami: <span className="text-amber-500 font-bold">{orderDone.id}</span>. Operatorimiz tez orada bog'lanadi. Qahvangiz damlanishni boshladi!
+          Raqami: <span className="text-amber-500 font-bold">{orderDone.id}</span>. Operatorimiz tez orada bog&apos;lanadi. Qahvangiz damlanishni boshladi!
         </p>
         <div className="pt-4 flex gap-4">
           <button
@@ -65,7 +65,7 @@ const Checkout = () => {
     >
       <div className="text-center space-y-2">
         <h1 className="text-3xl font-black text-white">Buyurtmani Rasmiylashtirish</h1>
-        <p className="text-stone-400 text-sm">Yetkazib berish ma'lumotlarini kiriting.</p>
+        <p className="text-stone-400 text-sm">Yetkazib berish ma&apos;lumotlarini kiriting.</p>
       </div>
 
       <form onSubmit={handleSubmit} className="bg-stone-950/80 border border-stone-800 p-8 rounded-3xl space-y-6 shadow-xl">
@@ -116,7 +116,7 @@ const Checkout = () => {
           </div>
 
           <div>
-            <label className="block text-xs font-bold text-stone-400 uppercase mb-2">To'lov turi</label>
+            <label className="block text-xs font-bold text-stone-400 uppercase mb-2">To&apos;lov turi</label>
             <div className="grid grid-cols-2 gap-4">
               <button
                 type="button"
